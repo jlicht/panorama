@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="icon" href="images/icons/mitaa.ico" type="image/x-icon">
+
+    <title>CSAIL Panorama Demo</title>
+    <meta name="description" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="dist/css/styles.css">
+
+</head>
+<body>
+    <div id="header">
+
+	</div>
+
+    <div id="panorama">
+
+
+	</div>
+
+    <div id="page">
+MIT's Computer Science and Artificial Intelligence Lab<br/>
+maecenas sed diam eget risus varius blandit sti amet non
+
+	</div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js"></script>
+    <script type="text/javascript" src="../krpano.js"></script>
+    <script>
+        $("#panorama").height($(window).height() - $("#header").height() - 80);
+        // embedpano({swf:"../krpano.swf", xml:"../IMG_8650.xml", target:"panorama", mwheel: false});
+        embedpano({swf:"../krpano.swf", xml:"../GPP-Space.xml", target:"panorama", mwheel: false});
+    </script>
+</body>
+</html>

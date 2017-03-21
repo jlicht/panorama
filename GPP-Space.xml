@@ -1,0 +1,263 @@
+﻿<krpano>
+
+	<control mousetype="drag2d" touchtype="drag2d" zoomtocursor="true" zoomoutcursor="true" bouncinglimits="true" keycodesin="16" keycodesout="17" />
+
+	<!-- the skin -->
+
+	<!-- view settings -->
+	<view hlookat="0" vlookat="0" maxpixelzoom="1.0" fovmax="150" limitview="range" vlookatmin="-53.847" vlookatmax="53.847" />
+
+
+	<preview url="GPP-Space.tiles/preview.jpg" />
+
+	<image>
+		<cube url="GPP-Space.tiles/pano_%s.jpg" />
+
+		<mobile>
+			<cube url="GPP-Space.tiles/mobile_%s.jpg" />
+		</mobile>
+	</image>
+
+<layer
+	name="title"
+	url="%SWFPATH%/plugins/textfield.swf"
+	html="AT CSAIL WE'RE INVENTING THE FUTURE OF"
+	css="font-family:Arial; font-size:24px; color:#FFFFFF;"
+	background="false"
+	align="top"
+	edge="center"
+	y="60"
+/>
+
+<style
+	name="section-title"
+	url="%SWFPATH%/plugins/textfield.swf"
+	css="p{color:#FFFFFF; font-family:Arial; font-weight:bold; font-size:64px; margin-left:5; margin-right:5; text-align:center; }"
+	background="false"
+	autosize="center"
+	autowidth="auto"
+	height="20"
+	oy="-70px"
+
+	/>
+
+<style
+	name="section-counts"
+	url="%SWFPATH%/plugins/textfield.swf"
+	ox="90px"
+	edge="center"
+	height="18"
+	width="150"
+	css="p{color:#333333; font-family:Arial; font-weight:normal; font-size:16px; margin-left:5; margin-right:5; text-align:left;}"
+	backgroundcolor="0xFFFFFF"
+	backgroundalpha="0.8"
+	autosize="center"
+	autowidth="auto"
+	/>
+
+<style
+	name="caption"
+	url="%SWFPATH%/plugins/textfield.swf"
+	edge="center"
+	width="250"
+	css="p{color:#333333; font-family:Arial; font-weight:normal; font-size:18px; line-height: 1.3; margin-left:15px; text-align:left; margin-right: 70px; padding-top: 10px; padding-bottom: 10px}"
+	backgroundcolor="0xFFFFFF"
+	backgroundalpha="0.9"
+	autowidth="auto"
+	/>
+
+
+<style
+	name="caption-small"
+	url="%SWFPATH%/plugins/textfield.swf"
+	edge="center"
+	width="180"
+	css="p{color:#333333; font-family:Arial; font-weight:normal; font-size:18px; line-height: 1.3; margin-left:15px; text-align:left; margin-right: 15px; padding-top: 10px; padding-bottom: 10px}"
+	backgroundcolor="0xFFFFFF"
+	backgroundalpha="0.9"
+	autowidth="auto"
+	/>
+
+
+<hotspot name="robotics" style="section-title"
+ath="-38" atv="-15"
+html="[p]Robotics[/p]"
+/>
+
+<hotspot name="robotics-people"
+style="section-counts"
+ath="-38" atv="-15"
+oy="50px"
+html="[p][b]32[/b] People[/p]"
+/>
+
+<hotspot name="robotics-projects"
+style="section-counts"
+ath="-38" atv="-15"
+oy="80px"
+html="[p][b]18[/b] Projects[/p]"
+/>
+
+<hotspot name="robotics-groups"
+style="section-counts"
+ath="-38" atv="-15"
+oy="110px"
+html="[p][b]11[/b] Groups[/p]"
+/>
+
+<hotspot name="robotics-line-1"
+ath="-38" atv="-15"
+ox="-140px"
+oy="10px"
+height="10px"
+width="250px"
+url="line.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="robotics-image-1"
+ath="-38" atv="-15"
+ox="-140px"
+oy="90px"
+height="140px"
+width="250px"
+url="mountain.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="robotics-caption-1"
+style="caption"
+ath="-38" atv="-15"
+ox="-140px"
+oy="200px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="50"
+zorder2="50"
+/>
+
+
+<hotspot name="robotics-line-2"
+ath="-38" atv="-15"
+ox="50px"
+oy="190px"
+height="10px"
+width="250px"
+url="line2.jpg"
+zorder="75"
+zorder2="75"
+/>
+
+<hotspot name="robotics-image-2"
+ath="-38" atv="-15"
+ox="50px"
+oy="270px"
+height="140px"
+width="250px"
+url="map.jpg"
+zorder="25"
+zorder2="75"
+/>
+
+<hotspot name="robotics-caption-2"
+style="caption"
+ath="-38" atv="-15"
+ox="50px"
+oy="365px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="75"
+zorder2="75"
+/>
+
+
+
+
+<hotspot name="healthcare" style="section-title"
+ath="58" atv="-15"
+html="[p]Healthcare[/p]"
+/>
+
+<hotspot name="healthcare-people"
+style="section-counts"
+ath="58" atv="-15"
+oy="50px"
+html="[p][b]32[/b] People[/p]"
+/>
+
+<hotspot name="healthcare-projects"
+style="section-counts"
+ath="58" atv="-15"
+oy="80px"
+html="[p][b]18[/b] Projects[/p]"
+/>
+
+<hotspot name="healthcare-groups"
+style="section-counts"
+ath="58" atv="-15"
+oy="110px"
+html="[p][b]11[/b] Groups[/p]"
+/>
+
+<hotspot name="healthcare-line-1"
+ath="58" atv="-15"
+ox="-140px"
+oy="10px"
+height="10px"
+width="250px"
+url="line.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="healthcare-image-1"
+ath="58" atv="-15"
+ox="-140px"
+oy="90px"
+height="140px"
+width="250px"
+url="sky.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="healthcare-caption-1"
+style="caption"
+ath="58" atv="-15"
+ox="-140px"
+oy="200px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="healthcare-statistic-2"
+ath="58" atv="-15"
+ox="40px"
+oy="250px"
+
+html="[p]78%[/p]"
+
+	height="80px"
+	width="180px"
+	url="%SWFPATH%/plugins/textfield.swf"
+	edge="center"
+	css="p{color:#FFFFFF; font-family:Arial; font-weight:normal; font-size:48px; line-height: 80px; margin-left:35px; text-align:center; margin-right: 35px; }"
+	backgroundcolor="0x000000"
+	backgroundalpha="0.9"
+	autowidth="auto"
+/>
+
+<hotspot name="healthcare-caption-2"
+style="caption-small"
+ath="58" atv="-15"
+ox="40px"
+oy="340px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="75"
+zorder2="75"
+/>
+
+
+
+</krpano>
