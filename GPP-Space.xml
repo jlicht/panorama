@@ -5,7 +5,7 @@
 	<!-- the skin -->
 
 	<!-- view settings -->
-	<view hlookat="0" vlookat="0" maxpixelzoom="1.0" fovmax="150" limitview="range" vlookatmin="-53.847" vlookatmax="53.847" />
+	<view hlookat="0" vlookat="0" maxpixelzoom="1.0" fovmax="150" limitview="range" vlookatmin="-45" vlookatmax="45" />
 
 
 	<preview url="GPP-Space.tiles/preview.jpg" />
@@ -37,7 +37,7 @@
 	autosize="center"
 	autowidth="auto"
 	height="20"
-	oy="-70px"
+	oy="-190px"
 
 	/>
 
@@ -80,35 +80,35 @@
 
 
 <hotspot name="robotics" style="section-title"
-ath="-38" atv="-15"
+ath="-33" atv="0"
 html="[p]Robotics[/p]"
 />
 
 <hotspot name="robotics-people"
 style="section-counts"
-ath="-38" atv="-15"
-oy="50px"
+ath="-33" atv="0"
+oy="-90px"
 html="[p][b]32[/b] People[/p]"
 />
 
 <hotspot name="robotics-projects"
 style="section-counts"
-ath="-38" atv="-15"
-oy="80px"
+ath="-33" atv="0"
+oy="-60px"
 html="[p][b]18[/b] Projects[/p]"
 />
 
 <hotspot name="robotics-groups"
 style="section-counts"
-ath="-38" atv="-15"
-oy="110px"
+ath="-33" atv="0"
+oy="-30px"
 html="[p][b]11[/b] Groups[/p]"
 />
 
 <hotspot name="robotics-line-1"
-ath="-38" atv="-15"
-ox="-140px"
-oy="10px"
+ath="-33" atv="0"
+ox="-160px"
+oy="-120px"
 height="10px"
 width="250px"
 url="line.jpg"
@@ -117,21 +117,22 @@ zorder2="50"
 />
 
 <hotspot name="robotics-image-1"
-ath="-38" atv="-15"
-ox="-140px"
-oy="90px"
+ath="-33" atv="0"
+ox="-160px"
+oy="-40px"
 height="140px"
 width="250px"
 url="mountain.jpg"
 zorder="50"
 zorder2="50"
+depth="2000"
 />
 
 <hotspot name="robotics-caption-1"
 style="caption"
-ath="-38" atv="-15"
-ox="-140px"
-oy="200px"
+ath="-33" atv="0"
+ox="-160px"
+oy="70px"
 html="[p]Duis molli, est non commodo luctust[/p]"
 zorder="50"
 zorder2="50"
@@ -139,9 +140,9 @@ zorder2="50"
 
 
 <hotspot name="robotics-line-2"
-ath="-38" atv="-15"
+ath="-33" atv="0"
 ox="50px"
-oy="190px"
+oy="50px"
 height="10px"
 width="250px"
 url="line2.jpg"
@@ -150,9 +151,9 @@ zorder2="75"
 />
 
 <hotspot name="robotics-image-2"
-ath="-38" atv="-15"
+ath="-33" atv="0"
 ox="50px"
-oy="270px"
+oy="120px"
 height="140px"
 width="250px"
 url="map.jpg"
@@ -162,9 +163,9 @@ zorder2="75"
 
 <hotspot name="robotics-caption-2"
 style="caption"
-ath="-38" atv="-15"
+ath="-33" atv="0"
 ox="50px"
-oy="365px"
+oy="215px"
 html="[p]Duis molli, est non commodo luctust[/p]"
 zorder="75"
 zorder2="75"
@@ -174,35 +175,35 @@ zorder2="75"
 
 
 <hotspot name="healthcare" style="section-title"
-ath="58" atv="-15"
+ath="58" atv="0"
 html="[p]Healthcare[/p]"
 />
 
 <hotspot name="healthcare-people"
 style="section-counts"
-ath="58" atv="-15"
-oy="50px"
+ath="58" atv="0"
+oy="-70px"
 html="[p][b]32[/b] People[/p]"
 />
 
 <hotspot name="healthcare-projects"
 style="section-counts"
-ath="58" atv="-15"
-oy="80px"
+ath="58" atv="0"
+oy="-40px"
 html="[p][b]18[/b] Projects[/p]"
 />
 
 <hotspot name="healthcare-groups"
 style="section-counts"
-ath="58" atv="-15"
-oy="110px"
+ath="58" atv="0"
+oy="-10px"
 html="[p][b]11[/b] Groups[/p]"
 />
 
 <hotspot name="healthcare-line-1"
-ath="58" atv="-15"
+ath="58" atv="0"
 ox="-140px"
-oy="10px"
+oy="-110px"
 height="10px"
 width="250px"
 url="line.jpg"
@@ -211,9 +212,9 @@ zorder2="50"
 />
 
 <hotspot name="healthcare-image-1"
-ath="58" atv="-15"
+ath="58" atv="0"
 ox="-140px"
-oy="90px"
+oy="-30px"
 height="140px"
 width="250px"
 url="sky.jpg"
@@ -223,18 +224,18 @@ zorder2="50"
 
 <hotspot name="healthcare-caption-1"
 style="caption"
-ath="58" atv="-15"
+ath="58" atv="0"
 ox="-140px"
-oy="200px"
+oy="90px"
 html="[p]Duis molli, est non commodo luctust[/p]"
 zorder="50"
 zorder2="50"
 />
 
 <hotspot name="healthcare-statistic-2"
-ath="58" atv="-15"
+ath="58" atv="0"
 ox="40px"
-oy="250px"
+oy="140px"
 
 html="[p]78%[/p]"
 
@@ -250,9 +251,187 @@ html="[p]78%[/p]"
 
 <hotspot name="healthcare-caption-2"
 style="caption-small"
-ath="58" atv="-15"
+ath="58" atv="0"
 ox="40px"
-oy="340px"
+oy="230px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="75"
+zorder2="75"
+/>
+
+
+<hotspot name="robotics2" style="section-title"
+ath="149" atv="0"
+html="[p]Robotics[/p]"
+/>
+
+<hotspot name="robotics2-people"
+style="section-counts"
+ath="149" atv="0"
+oy="-90px"
+html="[p][b]32[/b] People[/p]"
+/>
+
+<hotspot name="robotics2-projects"
+style="section-counts"
+ath="149" atv="0"
+oy="-60px"
+html="[p][b]18[/b] Projects[/p]"
+/>
+
+<hotspot name="robotics2-groups"
+style="section-counts"
+ath="149" atv="0"
+oy="-30px"
+html="[p][b]11[/b] Groups[/p]"
+/>
+
+<hotspot name="robotics2-line-1"
+ath="149" atv="0"
+ox="-160px"
+oy="-120px"
+height="10px"
+width="250px"
+url="line.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="robotics2-image-1"
+ath="149" atv="0"
+ox="-160px"
+oy="-40px"
+height="140px"
+width="250px"
+url="mountain.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="robotics2-caption-1"
+style="caption"
+ath="149" atv="0"
+ox="-160px"
+oy="70px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="50"
+zorder2="50"
+/>
+
+
+<hotspot name="robotics2-line-2"
+ath="149" atv="0"
+ox="50px"
+oy="50px"
+height="10px"
+width="250px"
+url="line2.jpg"
+zorder="75"
+zorder2="75"
+/>
+
+<hotspot name="robotics2-image-2"
+ath="149" atv="0"
+ox="50px"
+oy="120px"
+height="140px"
+width="250px"
+url="map.jpg"
+zorder="25"
+zorder2="75"
+/>
+
+<hotspot name="robotics2-caption-2"
+style="caption"
+ath="149" atv="0"
+ox="50px"
+oy="215px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="75"
+zorder2="75"
+/>
+
+
+<hotspot name="healthcare2" style="section-title"
+ath="-124" atv="0"
+html="[p]Healthcare[/p]"
+/>
+
+<hotspot name="healthcare2-people"
+style="section-counts"
+ath="-124" atv="0"
+oy="-70px"
+html="[p][b]32[/b] People[/p]"
+/>
+
+<hotspot name="healthcare2-projects"
+style="section-counts"
+ath="-124" atv="0"
+oy="-40px"
+html="[p][b]18[/b] Projects[/p]"
+/>
+
+<hotspot name="healthcare2-groups"
+style="section-counts"
+ath="-124" atv="0"
+oy="-10px"
+html="[p][b]11[/b] Groups[/p]"
+/>
+
+<hotspot name="healthcare2-line-1"
+ath="-124" atv="0"
+ox="-140px"
+oy="-110px"
+height="10px"
+width="250px"
+url="line.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="healthcare2-image-1"
+ath="-124" atv="0"
+ox="-140px"
+oy="-30px"
+height="140px"
+width="250px"
+url="sky.jpg"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="healthcare2-caption-1"
+style="caption"
+ath="-124" atv="0"
+ox="-140px"
+oy="90px"
+html="[p]Duis molli, est non commodo luctust[/p]"
+zorder="50"
+zorder2="50"
+/>
+
+<hotspot name="healthcare2-statistic-2"
+ath="-124" atv="0"
+ox="40px"
+oy="140px"
+
+html="[p]78%[/p]"
+
+	height="80px"
+	width="180px"
+	url="%SWFPATH%/plugins/textfield.swf"
+	edge="center"
+	css="p{color:#FFFFFF; font-family:Arial; font-weight:normal; font-size:48px; line-height: 80px; margin-left:35px; text-align:center; margin-right: 35px; }"
+	backgroundcolor="0x000000"
+	backgroundalpha="0.9"
+	autowidth="auto"
+/>
+
+<hotspot name="healthcare2-caption-2"
+style="caption-small"
+ath="-124" atv="0"
+ox="40px"
+oy="230px"
 html="[p]Duis molli, est non commodo luctust[/p]"
 zorder="75"
 zorder2="75"
